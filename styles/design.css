@@ -1,0 +1,98 @@
+ 
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 3.5em;
+
+    margin: 3px;
+    padding: 10px;
+}
+ 
+ h3#viv{
+     text-align: right;
+     color: firebrick;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.3em;
+ }
+
+
+#nav{
+  position: relative;
+  width:100%;
+  margin:0 auto;
+  padding:0;
+  height: 40px;
+
+}
+
+
+#nav ul{
+    padding-top: 2px;
+  display: block;
+  
+  margin: 0 0 0 -40px;
+  width: 980px;
+  font-size:25px;
+}
+#nav ul li {list-style: none;
+
+}
+#nav ul li a{display:block; 
+float: left;
+ padding:5px 68px 0 0px; 
+ text-decoration:underline; color:black;
+ text-align: center;
+ background-color:#BDC3C7;
+border: 2px solid darkblue;}
+#nav ul li a:hover{
+
+   background-color:#6C7A89;
+   text-decoration: underline;
+
+}
+
+.right{
+  position: absolute;
+  top: 2px;
+  right: 10px;
+}
+
+.right a {  padding-right: 0 !important; }
+
+
+section#carousel1 > figure > img{
+display: none;
+margin: 0px auto;
+}
+section#carousel1 > figure.visible > img {
+display: block;    
+border: 5px solid black;
+position: relative;
+overflow: hidden;  
+}
+section#carousel1 > figure > figcaption {
+display: none;
+}
+section#carousel > figure.visible > figcaption {
+display: block;    
+text-align: justify;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+
+p#tt{
+    color: darkblue;
+    font-size: 2em;
+}
+  footer{
+      text-align: center;
+      background-color: black;
+      color: white;
+      
+      font-size: 1.1em;
+      float: bottom;
+      width: 100%;
+  }

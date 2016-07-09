@@ -1,0 +1,27 @@
+h2{
+    color: darkblue;
+    font-size: 3em;
+    text-align: center;
+    
+ 
+  
+ }
+ video{
+     
+     padding-top: 20px;
+ }
+
+ h4{
+text-align: center;
+color: black;
+ }
+ th{
+     color: black;
+ }
+ th,td{
+     font-size: 1.4em;
+     font-weight: bold;
+ }
+ table{
+     background-color: #BDC3C7;
+ }
